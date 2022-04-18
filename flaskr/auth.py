@@ -1,7 +1,6 @@
 from crypt import methods
 from distutils.log import error
 import functools
-from tkinter.messagebox import NO
 
 from flask import (
   Blueprint, flash, g, redirect, render_template, request, session, url_for
